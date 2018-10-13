@@ -58,10 +58,10 @@ if (e.getSource() == button2) {
 	String s = "";
 	for(int i = 0; i < names.size(); i++){
 		s += names.get(i);
-		s += "\n";
+		s  += "\n";
 		
 	}
-	JOptionPane.showMessageDialog(null, s);
+	JOptionPane.showMessageDialog(null,  s);
 }
 	}
 }
